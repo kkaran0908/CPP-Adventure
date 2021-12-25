@@ -7,7 +7,7 @@ class Base
 {
 	int x;
 public:
-	Base(int val):x{val}{};
+	Base(int val):x{val}{}; //we can also use (), but it is not preffered. We can also make assignment to x ie x = val;
 	void print()
 	{
 		cout<<"Data in the constructor: "<<x;

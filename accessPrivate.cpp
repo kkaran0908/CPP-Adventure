@@ -9,7 +9,7 @@ public:
 	void printUserName(string uName)
 	{
 		(*this).uName = uName;
-		cout<<"Username is : "<<uName<<endl;
+		//cout<<"Username is : "<<uName<<endl;
 	}
 };
 
@@ -21,7 +21,7 @@ public:
 	string fb_password;
 	void secret()
 	{
-		//cout<<"User Name : "<<uName<<endl;
+		cout<<"User Name : "<<uName<<endl;
 		cout<<"Password: "<<fb_password<<endl;
 
 	}
